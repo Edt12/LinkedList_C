@@ -1,6 +1,14 @@
 #include <iostream>
-//Written without classes so i can better understand c
+
+#include "LinkedList.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    LinkedList list = LinkedList(Node(1,nullptr));
+
+
+
+
+
+
     return 0;
 }
